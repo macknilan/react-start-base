@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.js",
-    "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
-    "lint": "eslint src/ --fix && yarn format",
+    "format": "prettier --write '{*.js,*scss,src/**/*.{js,jsx,scss}}'",
+    "lint": "eslint src/ --fix",
     "prepare": "husky install"
   },
   "keywords": [],
